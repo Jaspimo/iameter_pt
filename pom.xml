@@ -12,7 +12,16 @@
     <name>IAmeter Webapp</name>
   <url>https://www.ptsecurity.com</url>
   <dependencies>
-
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.15</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>iameter</finalName>
