@@ -36,6 +36,22 @@
                   <target>17</target>
               </configuration>
           </plugin>
-      </plugins>
+           
+		  
+		  <!-- war plugin -->
+		  <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-war-plugin</artifactId>
+			  <version>3.3.2</version>
+          </plugin>
+		  
+		  
+		  <!-- OWASP dependency check plugin -->
+		  <plugin>
+              <groupId>org.owasp</groupId>
+              <artifactId>dependency-check-maven</artifactId>
+			  <version>8.4.0</version>
+          </plugin>
+	  </plugins>
   </build>
 </project>
